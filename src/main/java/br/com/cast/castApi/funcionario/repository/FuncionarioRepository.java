@@ -6,6 +6,10 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import br.com.cast.castApi.funcionario.model.Funcionario;
 
 @RepositoryRestResource(collectionResourceRel = "funcionario", path = "funcionario")
-public interface FunctionarioRepository extends PagingAndSortingRepository<Funcionario, Long> {
+public interface FuncionarioRepository extends PagingAndSortingRepository<Funcionario, Long> {
+
+	/*@Query("")
+	Iterable<Funcionario> funcionariosPodemTirarFerias();
+	*/
 
 }
