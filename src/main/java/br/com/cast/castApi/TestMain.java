@@ -9,8 +9,8 @@ public class TestMain {
 	
 	public static void main(String args[]) {
 		
-		String startDate = "2016 01 02";
-		String passedDate = "2019 01 22";
+		String startDate = "2018 01 10";
+		String passedDate = "2019 01 02";
 
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy MM dd");
 		LocalDate date1 = LocalDate.parse(startDate, formatter);
